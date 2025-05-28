@@ -58,8 +58,8 @@ document.querySelector('.js-result')
     .innerHTML=result;
 
 document.querySelector('.js-move')
-    .innerHTML=`You  <img class="move-icon" src="/Project/Rock-Paper_Scissors/${playerMove}-emoji.png"> 
-        Computer<img class="move-icon" src="/Project/Rock-Paper_Scissors/${computerMove}-emoji.png">`;
+    .innerHTML=`You  <img class="move-icon" src="Rock-Paper_Scissors/${playerMove}-emoji.png"> 
+        Computer<img class="move-icon" src="Rock-Paper_Scissors/${computerMove}-emoji.png">`;
 }
 function updateScoreElement(){
 document.querySelector('.js-score')
